@@ -1,0 +1,133 @@
+header{
+    background-color: orange;
+}
+body{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+img{
+    position: relative;
+    
+}
+#button1{
+    position: relative;
+    left: 88%;
+    top: -190px;
+    border-radius: 50px;
+    background-color: #ffcc50;
+    height: 50px;
+    font-size: large;
+    border-color: white;
+    color: white;
+}
+#button1:hover{
+    color: gray;
+    border-color: gray;
+}
+#texto_header{
+    position: relative;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    top: -60px;
+    height: 20px;   
+}
+#bolo{
+    position: relative;
+    text-align: center;
+}
+#text_cenoura{
+    position: relative;
+    
+}
+div{
+    width: 100%;
+}
+#bolo_cenoura{
+    border-radius: 15px;
+    border: 2px solid black;
+}
+#bolo_fuba{
+    border-radius: 15px;
+    border: 2px solid black;
+}
+#bolo_chocolate{
+    position: relative;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+#text_fuba{
+    position: relative;
+}
+#text_chocolate{
+    position: relative;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  #button2{
+    position: relative;
+    right: 9%;
+    top: -190px;
+    border-radius: 50px;
+    background-color: #ffcc50;
+    height: 50px;
+    font-size: large;
+    border-color: white;
+    color: white;
+  }
+#button2:hover{
+    color: gray;
+    border-color: gray;
+}
+#button3{
+    position: relative;
+    right: 7%;
+    top: -190px;
+    border-radius: 50px;
+    background-color: #ffcc50;
+    height: 50px;
+    font-size: large;
+    border-color: white;
+    color: white;
+  }
+#button3:hover{
+    color: gray;
+    border-color: gray;
+}
+.cadastro{
+    position: relative;
+}
+.Senha{
+    position: relative;
+}
+.button{
+    position: relative;
+}
+#buttondelogin:hover{
+    color: black;
+    border-color: black;
+}
+.transition{
+    width: 250px; /* Largura inicial da imagem */
+    height: 150px; /* Altura automática para manter a proporção */
+    transition: transform 0.3s ease; /* Adiciona transição para suavizar a animação */
+}
+.transition:hover {
+    transform: scale(1.1); /* Aumenta o tamanho em 10% */
+}
+.transition2{
+    transition: transform 0.3s ease; /* Adiciona transição para suavizar a animação */
+}
+.transition2:hover {
+    transform: scale(1.1); /* Aumenta o tamanho em 10% */
+}
+#img_contato{
+    border-radius: 50px;
+    border: 2px solid black;
+    height: 200px;
+}
